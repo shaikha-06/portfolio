@@ -1,0 +1,184 @@
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="stylee.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+         emailjs.init({
+         publicKey: "0t3mx3PQ86LZpXeIs",
+         });
+         })();
+</script>
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">Shaikha</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-item">Home</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#services" class="nav-item">Services</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+     <!--home section design-->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>hello it's me</h3>
+            <h1>Shaikha</h1>
+            <h3>and i'm a <span>Front-End Developer</span></h3>
+            <p>This portfolio isn't fully completed yet—I'm still working on the backend. Once I get some time, I'll finish it. Right now, only 
+                the backend is left, and the contact form doesn't work yet.</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/xllsy._?igsh=NnF1dXBuMWhkMGxj"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/5MJGLV5RU364A1 "><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/shaikha-06"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sarah-khan-a78762348/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btns">
+                    <a href="https://www.instagram.com/xllsy._?igsh=NnF1dXBuMWhkMGxj" class="btn1">Talk To Me</a>
+                    
+                </div>
+        </div>
+    </section>
+
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <h2 class="heading">About<span>Me</span></h2>
+
+        <div class="about-content">
+            <h3>Front End developer</h3>
+
+            <p>"I'm just creating simple websites like this and adding them to my portfolio—it's just for practice.
+                 If you don't like something, I'm sorry, and please don't judge me. At least I'm trying."</p>
+
+                  <div class="btn-box">
+                    <a href="" class="btns" download="c:\Users\lenovo\Documents\cv.pdf">Download CV</a>
+                  </div>
+
+        </div>
+    </section>
+
+
+    <!--services-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <a href="https://shaikha-06.github.io/shaikha-1stproject/"><i class="fa-solid fa-link"></i>
+                    <h3>Ainosh_Abaya_wesbsite</h3>
+                    <p>"Ainosh Abaya Website" is my first web development assignment. It’s a simple, elegant site showcasing various abaya styles.
+                         Through this project, I learned the basics of HTML, CSS, and website structure, marking the start of my web development 
+                         journey."I know, I know it's not responsive. At that time, we weren't required to make it responsive, so I just added that
+                          assignment here."</p>
+                    </a>
+            </div>
+            <div class="services-box">
+                <a href="https://wajahat1809.github.io/wilson_sporting_goods/"><i class="fa-solid fa-link"></i>
+                    <h3>wilson_sports_good website</h3>
+                    <p>"Wilson Sports Goods" is a group web development project created by three members. The website showcases various sports
+                         products and helped us improve our teamwork and coding skills."I know, I know it's not responsive. At that time, we
+                          weren't required to make it responsive, so I just added that
+                         assignment here."</p>
+                    </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--contact page-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST" method="post">
+
+            
+            <input type="hidden" name="access_key" value="be4e6f8b-a591-465e-b368-cc0adb9c6bce">
+
+            <div class="input-box">
+                <div class="input-field">
+                    <span class="focus"></span>
+                <div class="input-field">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="number" id="num" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="textarea-field">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <div class="span focus"></div>
+                </div>
+                    <div class="button">
+                        <button type="submit"  class="btnnn">Submit</button>
+                    <span>Sending Your message...</span>
+                    </div>
+            </div>
+        </form>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>"Thanks for stopping by. Let’s connect!"</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="" class="home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
